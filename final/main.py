@@ -66,7 +66,7 @@ while (cap.isOpened()):
         cv2.putText(frame, '#' + str(num),
                     (int(x) - 10, int(y)),
                     cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
-        # 和圆心坐标
+        # 圆心坐标
         cv2.putText(frame, 'position: ' + '(' + str(int(x)) + ',' + str(int(y)) + ')',
                     (int(x) - 150, int(y) + 40),
                     cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
